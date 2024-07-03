@@ -1,0 +1,51 @@
+.home {
+    background-color: hsl(0, 0%, 94%);
+    color: #1B2430;
+    margin-top: 50px;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.home h1 {
+    text-transform: capitalize;
+}
+
+.home p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2rem 0 2rem 0;
+}
+
+.home button {
+    background-color: #1B2430;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 9px 20px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home button:hover {
+    background-color: white;
+    color: #1B2430;
+    border : 4px solid #1B2430;
+}
+
+.home input {
+    padding: 9px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border : none;
+    outline: none;
+}
+
+.home img {
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
