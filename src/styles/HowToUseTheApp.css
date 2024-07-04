@@ -1,0 +1,48 @@
+.howToUse {
+    background-color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.howToUse img {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.num {
+    text-align: center;
+    border: 3px solid #1B2430;
+    padding: 7px 15px;
+    display: inline-block;
+    color: #1B2430;
+    background-color: #8d9ca9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.howToUse h5 {
+    font-weight: 400;
+}
+
+.howToUse h1 {
+    font-weight: 700;
+}
+
+.howToUse .para {
+    font-weight: 400;
+    font-size: 1.1rem;
+    /* margin-top: -20px; */
+}
