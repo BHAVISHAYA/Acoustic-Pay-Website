@@ -4,6 +4,7 @@ import { Service } from "./components/Service";
 import { Contact } from './components/Contact';
 import { About } from "./components/About";
 import { Navbar } from './components/Navbar';
+import { HowItWorks } from './components/HowItWorks';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes> 
+                <HowItWorks />
             </BrowserRouter>
         </>
     );

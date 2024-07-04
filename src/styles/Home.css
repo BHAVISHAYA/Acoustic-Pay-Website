@@ -1,11 +1,71 @@
 .home {
     background-color: hsl(0, 0%, 94%);
     color: #1B2430;
-    margin-top: 50px;
     display: flex;
-    min-height: 100vh;
+    min-height: 900px;
     width: 100%;
 }
+
+@media screen and (max-width : 1300px) {
+    .home {
+        min-height: 1000px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .home {
+        min-height: 1100px;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .home {
+        min-height: 1200px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .home {
+        min-height: 1300px;
+    }
+}
+
+@media screen and (max-width : 771px) {
+    .home {
+        min-height: 1500px;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .home {
+        min-height: 1600px;
+    }
+}
+
+@media screen and (max-width : 360px) {
+    .home {
+        min-height: 1900px;
+    }
+}
+
+@media screen and (max-width : 300px) {
+    .home {
+        min-height: 2000px;
+    }
+}
+
+@media screen and (max-width : 280px) {
+    .home {
+        min-height: 2400px;
+    }
+}
+
+@media screen and (max-width : 250px) {
+    .home {
+        min-height: 2600px;
+    }
+}
+
 
 .home h1 {
     text-transform: capitalize;

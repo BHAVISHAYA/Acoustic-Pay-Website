@@ -5,7 +5,7 @@ import { MobileNav } from "./MobileNav";
 
 export const Navbar = () => {
 
-    const [toggleIcon, setToggleIcon] = useState(true);
+    const [toggleIcon, setToggleIcon] = useState(false);
     const toggle = () => {
         setToggleIcon(!toggleIcon);
     }
