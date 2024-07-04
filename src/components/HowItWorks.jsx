@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/HowItWorks.css";
 import workAPI from '../API/workAPI';
-import { CurrencyRubleRounded } from '@mui/icons-material';
 
 export const HowItWorks = () => {
     return (

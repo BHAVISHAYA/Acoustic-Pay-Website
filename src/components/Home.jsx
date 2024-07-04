@@ -1,4 +1,5 @@
 import "../styles/Home.css";
+import { HowItWorks } from "./HowItWorks";
 
 export const Home = () => {
     return (
@@ -24,7 +25,8 @@ export const Home = () => {
                         <img className="img-fluid" src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
                     </div>
                 </div>
-            </div>   
+            </div> 
+            <HowItWorks />  
         </>
     );
 }
