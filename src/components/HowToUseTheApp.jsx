@@ -5,7 +5,7 @@ import howToUse from '../API/howToUse';
 export const HowToUseTheApp = () => {
     return (
         <>
-            <div className="container-fluid howToUse">
+            <div className="container-fluid howToUse" style={{backgroundColor : "#FFFFFF"}}>
                 <div className="container">
                     <div className="row justify-content-around align-items-center">
                         <div className="col-md-4 text-center pt-5 pb-5">
