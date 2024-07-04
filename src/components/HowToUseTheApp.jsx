@@ -1,39 +1,28 @@
-import React from 'react'
 import "../styles/HowToUseTheApp.css";
-import howToUse from '../API/howToUse';
+import { ContentImage } from "./ContentImage";
+import { ContentText } from "./ContentText";
 
 export const HowToUseTheApp = () => {
     return (
         <>
-            <div className="container-fluid howToUse" style={{backgroundColor : "#FFFFFF"}}>
+            <div className="container-fluid howToUse pb-5" style={{backgroundColor : "#FFFFFF"}}>
                 <div className="container">
                     <div className="row justify-content-around align-items-center">
-                        <div className="col-md-4 text-center pt-5 pb-5">
-                            <img className='img-fluid' src="https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
-                        </div>
-                        <div className="col-md-6 px-4">
-                            <h5 className='pb-4'> -- AVAILABLE @GOOGLE AND IOS APP STORE ONLY -- </h5>
-                            <h1 className='pb-5'>How to use the App ?</h1>
+                        <ContentImage imgSrc="https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                        <ContentText text1="-- AVAILABLE @GOOGLE AND IOS APP STORE ONLY --" text2="How to use the App ?" />
+                    </div>
+                </div>
+            </div>
 
-                            {
-                                howToUse.map((currELe) => {
-                                    return <>
-                                        <div className="row pb-4 ourServices align-items-center justify-content-start">
-                                            <div className="col-md-12 pb-4 text-md-start">
-                                                <span className='num' > { currELe.id } </span>
-                                                <br className='d-block d-md-none' />
-                                                <span className='text'> { currELe.title } </span>
-                                            </div>
-                                            <div className="col-md-12">
-                                                <p className='para'> { currELe.info } </p>
-                                            </div>
-                                        </div>
-                                    </>
-                                })
-                            }
-
-                            <button>Learn More</button>
-                        </div>
+            <div className="container-fluid howToUse pb-5" style={{backgroundColor : "#FFFFFF"}}>
+                <div className="container">
+                    <div className="row d-none d-md-flex justify-content-around align-items-center">
+                        <ContentText text1="--SUPPORT IN ANY LANGUAGES--" text2="World class support is available 24/7" />
+                        <ContentImage imgSrc="https://images.pexels.com/photos/5239911/pexels-photo-5239911.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                    </div>
+                    <div className="row d-flex d-md-none justify-content-around align-items-center">
+                        <ContentImage imgSrc="https://images.pexels.com/photos/5239911/pexels-photo-5239911.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                        <ContentText text1="--SUPPORT IN ANY LANGUAGES--" text2="World class support is available 24/7" />
                     </div>
                 </div>
             </div>
