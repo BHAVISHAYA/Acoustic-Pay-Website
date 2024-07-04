@@ -32,9 +32,7 @@ export const HowToUseTheApp = () => {
                                 })
                             }
 
-
-
-                            <button className='mx-4'>Learn More</button>
+                            <button>Learn More</button>
                         </div>
                     </div>
                 </div>

@@ -44,5 +44,18 @@
 .howToUse .para {
     font-weight: 400;
     font-size: 1.1rem;
-    /* margin-top: -20px; */
+}
+
+.howToUse button {
+    background-color: #1B2430;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 8px 20px;
+}
+
+.howToUse button:hover {
+    background-color: #FFFFFF;
+    color: #1B2430;
+    border : 4px solid #1B2430;
 }
