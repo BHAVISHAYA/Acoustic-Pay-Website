@@ -4,7 +4,7 @@ import "../styles/Home.css";
 export const HomeFirstContent = () => {
     return (
         <>
-            <div className="container-fluid home" style={{backgroundColor: "#EFF5FB"}}>
+            <div className="container-fluid home" style={{backgroundColor: "#EFF5FB", paddingTop : "2rem"}}>
                 <div className="row">
                     <div className="px-5 order-2 order-md-1 col-12 col-md-6 d-flex flex-column align-items-start justify-content-start justify-content-md-center">
                         <h1>

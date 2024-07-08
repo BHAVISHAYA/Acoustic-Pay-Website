@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/Service.css";
 import { MoneySendProcess } from './MoneySendProcess';
+import { Footer } from './Footer';
 
 export const Service = () => {
     return (
@@ -11,6 +12,7 @@ export const Service = () => {
                     <MoneySendProcess />
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

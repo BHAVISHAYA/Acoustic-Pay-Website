@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/Contact.css";
 import { MyContactInputs } from './MyContactInputs';
+import { Footer } from './Footer';
 
 export const Contact = () => {
     return (
@@ -19,6 +20,7 @@ export const Contact = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

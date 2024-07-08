@@ -1,11 +1,12 @@
 import "../styles/About.css";
 import { ContentImage } from "./ContentImage";
 import { ContentText } from "./ContentText";
+import { Footer } from "./Footer";
 
 export const About = () => {
     return (
         <>
-            <div className="container-fluid howToUse pb-5" style={{backgroundColor : "#FFFFFF", paddingTop : "8rem"}}>
+            <div className="container-fluid howToUse pb-5" style={{backgroundColor : "#FFFFFF", paddingTop : "6.6rem"}}>
                 <div className="container">
                     <div className="row justify-content-around align-items-center">
                         <ContentImage imgSrc="https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=600" />
@@ -26,6 +27,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
