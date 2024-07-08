@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../styles/HowToUseTheApp.css";
+import "../styles/About.css";
 import howToUse from '../API/howToUse';
 
 export const HowToUseContent = () => {

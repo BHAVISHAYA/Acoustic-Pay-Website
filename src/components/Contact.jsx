@@ -5,7 +5,7 @@ import { MyContactInputs } from './MyContactInputs';
 export const Contact = () => {
     return (
         <>
-            <div className="container-fluid contactPage" style={{backgroundColor:"#FFFFFF", paddingTop : "5rem"}}>
+            <div className="container-fluid contactPage" style={{backgroundColor:"#FFFFFF", paddingTop : "8rem", height : "100%"}}>
                 <div className="row justify-content-evenly">
                     <div className="col-md-4 col-10">
                         <h1 className='pb-4'>Contact With Our Sales Team</h1>

@@ -1,8 +1,8 @@
 import "../styles/Home.css";
 import { HowItWorks } from "./HowItWorks";
 import { HomeFirstContent } from "./HomeFirstContent";
-import { HowToUseTheApp } from "./HowToUseTheApp";
-import { HowToSendMoney } from "./HowToSendMoney";
+import { About } from "./About";
+import { Service } from "./Service";
 import { Contact } from "./Contact";
 
 export const Home = () => {
@@ -10,8 +10,8 @@ export const Home = () => {
         <>
             <HomeFirstContent />
             <HowItWorks />
-            <HowToUseTheApp /> 
-            <HowToSendMoney />
+            <About /> 
+            <Service />
             <Contact />
         </>
     );

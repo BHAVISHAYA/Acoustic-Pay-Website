@@ -1,6 +1,6 @@
 import React from 'react';
 import moneyServices from '../API/moneyServices';
-import "../styles/HowToSendMoney.css";
+import "../styles/Service.css";
 
 export const MoneySendProcess = () => {
     return (
