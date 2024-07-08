@@ -1,0 +1,36 @@
+.moneyService {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.moneySendInst i {
+    font-size: 1.4rem;
+    background-color: #C1FFFF;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.moneyService:hover {
+    background-color: #EFF5FB;
+    cursor : pointer;
+}
+
+.moneyService:hover > i {
+    background-color: #fff;
+}
+
+.moneySendInst h1 {
+    font-size: 2.5rem;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
