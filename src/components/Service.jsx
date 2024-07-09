@@ -12,7 +12,6 @@ export const Service = () => {
                     <MoneySendProcess />
                 </div>
             </div>
-            <Footer />
         </>
     )
 }
