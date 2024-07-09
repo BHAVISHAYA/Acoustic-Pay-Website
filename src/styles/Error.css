@@ -1,0 +1,30 @@
+.notFound {
+    background-color: #FFFFFF;
+    height: 100vh;
+    align-content: center;
+    text-align: center;
+}
+
+.notFound h1 {
+    font-size: 4rem;
+}
+
+
+.styleNav {
+    text-decoration-line:none;
+    font-size: 1.4rem;
+    color: #17CF97;
+    border:4px solid #17CF97;
+    padding: 1rem 1.2rem;
+    background-color: #1B2430;
+    border-radius: 3rem;
+    -moz-text-decoration-line:none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.styleNav:hover {
+    background-color: #17CF97;
+    border : 4px solid #1B2430;
+    color : #1B2430;
+}

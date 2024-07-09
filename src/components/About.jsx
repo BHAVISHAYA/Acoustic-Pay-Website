@@ -1,7 +1,6 @@
 import "../styles/About.css";
 import { ContentImage } from "./ContentImage";
 import { ContentText } from "./ContentText";
-import { Footer } from "./Footer";
 
 export const About = () => {
     return (
